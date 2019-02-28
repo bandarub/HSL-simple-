@@ -1,0 +1,17 @@
+
+<div class="row">
+        {{#each regions }} 
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+
+      <div class="caption">
+                        <span >
+                            <h3>{{this.displayName}}</h3>
+                        </span>
+                        <a href="buy/{{this.id}}" type="button">buy</a>
+      </div>
+    </div>
+  </div> 
+    {{/each}}
+
+</div>
